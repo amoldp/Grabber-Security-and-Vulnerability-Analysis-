@@ -1,0 +1,24 @@
+<!Doctype html>
+<html>
+<head>
+</head>
+
+<body>
+	<h1>Welcome to Grabber!</h1>
+
+	<h3>Scan the website</h3>
+	<form action="startGrabber.php" method = "GET">
+		Url: <input name="url" type="text"><br/>
+		<br/>
+		Depth of Spider : <input name="depth" type="number"><br/>
+		
+		Check For:<br/>
+		<input type="checkbox" name="xss" value="xss">XSS <br/>
+		<input type="checkbox" name="sql" value="sql">SQL Injection<br/>
+		<input type="checkbox" name="javascript" value="javascript">Javascript<br/>
+		<input type="checkbox" name="bsql" value="bsql">Blind SQL Injection<br/>
+
+		<button type="submit"> Submit</button>
+	</form>
+</body>
+</html>
